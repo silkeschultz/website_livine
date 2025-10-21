@@ -2,3 +2,35 @@
   text-decoration: none;
   color: rgba(108, 32, 24, 1);
 }
+
+/* FORSIDE BILLEDET */
+.forside-billede {
+  position: relative; /* gør at teksten kan ligge ovenpå */
+  display: inline-block; /* så den opfører sig som blok = jeg kan ha højde og bredde på men den lægger sig i kun rundt om sit indhold*/
+}
+.forside-billede img {
+  width: 100%; /* fylder hele bredden */
+}
+.tekst-forsidebillede {
+  position: absolute; /* Gør det muligt at placere tekst ovenpå billedet */
+  top: 36%; /* Placere teksten hvor jeg vil ha den på billedet lodret */
+  left: 50%; /* Placere ca midt på billedet vandret */
+  transform: translate(-55%, -50%); /* jeg centrer teksten helt præcist */
+  color: #742921;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  white-space: nowrap; /* så teksten bliver på en linje */
+  font-size: 1.7rem;
+}
+/* så teksten bliver mindre */
+@media (max-width: 800px) {
+  .tekst-forsidebillede h2 {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 750px) {
+  .tekst-forsidebillede h2 {
+    font-size: 1.5rem;
+  }
+}
