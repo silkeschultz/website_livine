@@ -11,19 +11,58 @@
   <body>
     <header class="header">
       <nav class="nav-left">
-        <a href="#">HOME</a>
-        <a href="#">ABOUT</a>
+        <a href="index.html">HOME</a>
+        <a href="productlist.html">PRODUCTS</a>
       </nav>
 
       <div class="logo">LIVINÉ</div>
 
       <div class="nav-right">
-        <a href="#"><i class="fas fa-search"></i></a>
-        <a href="#"><i class="fas fa-envelope"></i></a>
-        <a href="#"><i class="fas fa-shopping-bag"></i></a>
+        <a href="img/favorite.png"><i class="fas fa-search"></i></a>
+        <a href="img/search.png"><i class="fas fa-envelope"></i></a>
+        <a href="img/shopping_bag.png"><i class="fas fa-shopping-bag"></i></a>
       </div>
     </header>
-    <main></main>
+    <section id="filters">
+      <button data-tag="All">All</button>
+      <button data-tag="HomeDecor">Home Decorations</button>
+      <button data-tag="KitchenAccessories">Kitchen Accessories</button>
+      <button data-tag="Furniture">Furniture</button>
+    </section>
+    <section id="sorting">
+      <button data-direction="lohi">Pris lav til høj</button>
+      <button data-direction="hilo">Pris høj til lav</button>
+    </section>
+    <main>
+      <h1>Our Products</h1>
+      <div class="productlist_card">
+        <a href="https://dummyjson.com/products/category/home-decoration/?id="></a>
+        <img src="https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/thumbnail.webp" alt="swing" />
+        <h3>Decoration Swing</h3>
+        <h4>LIVINÈ EDITIONS</h4>
+        <div class="pris">
+          <p>DKK ,-</p>
+        </div>
+      </div>
+      <div class="productlist_card">
+        <a href="https://dummyjson.com/products/category/home-decoration/?id="></a>
+        <img src="https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/thumbnail.webp" alt="swing" />
+        <h3>Decoration Swing</h3>
+        <h4>LIVINÈ EDITIONS</h4>
+        <div class="pris">
+          <p>DKK ,-</p>
+        </div>
+      </div>
+      <div class="productlist_card">
+        <a href="https://dummyjson.com/products/category/home-decoration/?id="></a>
+        <img src="https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/thumbnail.webp" alt="swing" />
+        <h3>Decoration Swing</h3>
+        <h4>LIVINÈ EDITIONS</h4>
+        <div class="pris">
+          <p>DKK ,-</p>
+        </div>
+      </div>
+    </main>
     <footer class="footer">
       <div class="footer-content">
         <div class="footer-column">

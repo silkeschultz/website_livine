@@ -16,8 +16,12 @@ h2 {
   font-family: "Playfair";
 }
 p,
-h3 {
+h3,
+h4 {
   font-family: "Lato";
+}
+h4 {
+  font-weight: lighter;
 }
 
 /* header */
@@ -59,7 +63,7 @@ footer {
 .nav-right {
   display: flex;
   gap: 1.5rem;
-  background-color: #4a1f16; /* mørkere felt bag ikoner */
+  background-color: #6b2c23; /* mørkere felt bag ikoner */
   padding: 0.5rem 1.5rem;
 }
 
@@ -71,6 +75,9 @@ footer {
 
 .nav-right a:hover {
   opacity: 0.8;
+}
+.nav-right img {
+  z-index: 1;
 }
 
 /* footer */
