@@ -1,5 +1,84 @@
-.productlist_card main {
+.productlist {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 290px));
-  gap: 2rem;
+  gap: 1.5rem;
+  padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.productlist_card a {
+  text-decoration: none;
+  color: black;
+}
+.productlist_card {
+  position: relative; /* gør det muligt at placere label ovenpå */
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.productlist_card:hover {
+  border: 2px solid #6b2c23;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.productlist_card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.productlist_card h3 {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+}
+
+.productlist_card h4 {
+  font-size: 0.85rem;
+  color: #777;
+  margin: 0.2rem 0 0.6rem;
+}
+
+.pris p {
+  font-weight: bold;
+  color: #333;
+}
+/* Filtrering */
+button {
+  background-color: rgba(242, 234, 229, 1);
+  color: rgb(74, 37, 9);
+  border: 2px solid #6b2c23;
+  border-radius: 10rem;
+  padding: 5px 10px;
+  font-weight: bold;
+  margin: 0.2rem;
+}
+button:hover {
+  background-color: #6b2c23;
+  color: rgba(242, 234, 229, 1);
+  font-weight: bolder;
+}
+section {
+  margin: 0.5rem;
+}
+/* Labels */
+.nedsat {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #6b2c23;
+  color: white;
+  font-weight: lighter;
+  font-size: 0.9rem;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
