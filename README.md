@@ -32,16 +32,16 @@ Beslutte hvordan i vil navngive filer og mapper for at sikre en ensartet struktu
 ## Git branches:
 
 - Hvordan navngiver I branches, så alle kan forstår hvem der arbejder i branchen og på hvad?(fx feature-lotte-formular)
-  - Vi navngiver vores branches ved at lave branches som er navngivet, hvad vi arbejder med og og tilføjer navne for enden af dem fx. "tilføjer_html_silke", "cards_andrea", "header_emilie" osv.
+  - Vi navngiver vores branches ved at lave branches som er navngivet, hvad vi arbejder med. Vi aftalte indbyrdes hvilken siden vi hver især arbejder på, efter en masse bøvl med github. Så vi har hver især arbejdet på en side.
 
 ## Arbejdsflow:
 
 - Hvordan fordeler I arbejdet, så I undgår at flere arbejder i de samme filer samtidigt?
-  - Vi kommunikere undervejs og kan se på github, hvem der arbejder med hvad ift. branchnavnene
+  - Vi har aftalt på forhånd hvilke sider vi hver i sær står for og så kan vi se igennem github når der er blevet tilføjet nyt. Herved sørge for at kommunikere når vi har tilføjet noget nyt til main, så vi hele tiden er up to date med de nyeste tilføjelser.
 - Hvordan sikrer I, at commit-beskeder er beskrivende?
   - Vi skriver korte men besrkivende beskeder som indholder de væsentligste ting som er blevet tilføjet
 - Hvordan kommunikerer i om ændringer i main branchen når feature merges?
-  - Vi afstemmer om vi alle er tilfredse med arbejdet, før det bliver merched ind i main, så vi ved hvad der bliver tilføjet
+  - Vi afstemmer om vi alle er tilfredse med arbejdet over besked eller face to face, før det bliver merched ind i main, så vi ved hvad der bliver tilføjet.
 
 ## Kode:
 
