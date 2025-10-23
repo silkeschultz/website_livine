@@ -63,24 +63,27 @@ footer {
 
 .nav-right {
   display: flex;
-  gap: 1.5rem;
-  background-color: #6b2c23; /* mørkere felt bag ikoner */
+  align-items: center; /* centrerer ikonerne lodret */
+  gap: 1.2rem; /* mellemrum mellem ikoner */
+  background-color: #6b2c23;
   padding: 0.5rem 1.5rem;
 }
 
 .nav-right a {
-  color: #f9f4ef;
-  font-size: 1.2rem;
-  text-decoration: none;
-}
-
-.nav-right a:hover {
-  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .nav-right img {
-  z-index: 1;
+  width: 24px; /* eller 20px hvis du vil have dem mindre */
+  height: 24px;
+  filter: brightness(0) invert(1); /* gør mørke ikoner lyse */
+  transition: opacity 0.3s ease;
+  cursor: pointer;
 }
-
+.nav-right img:hover {
+  opacity: 0.8;
+}
 /* footer */
 
 .footer {
