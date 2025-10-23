@@ -20,7 +20,7 @@ data.products.forEach((element)=>{
   productListContainer.innerHTML += `
         <div class="productlist_card">
           <div class="nedsat">-${element.discountPercentage}%</div>
-          <a href="product.html">
+          <a href="product.html?id=${element.id}">
             <img src="${element.thumbnail}" alt="product image" />
             <div class="product_info">
               <div class="text">

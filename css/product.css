@@ -1,8 +1,9 @@
-main {
+.product-main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 50vh;
+  margin: 8rem;
 }
 
 .product-card {
@@ -26,21 +27,24 @@ main {
 
 .discount-badge {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: #6c2c1b;
+  top: 12px;
+  left: 12px;
+  background-color: #6b2c23;
   color: white;
+  font-weight: lighter;
+  font-size: 0.9rem;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  font-weight: bold;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .product-info {
   flex: 1;
+  margin-left: 5rem;
 }
 
 .brand {
